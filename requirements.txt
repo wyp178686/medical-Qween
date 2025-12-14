@@ -1,0 +1,27 @@
+accelerate
+datasets>=2.14.6
+loguru
+peft>=0.14.0
+sentencepiece
+scikit-learn
+tensorboard
+tqdm>=4.47.0
+transformers>=4.49.0
+trl>=0.15.2
+# bitsandbytes # not available on pypi
+latex2sympy2_extended
+math-verify==0.5.2
+
+pip uninstall --no-cache-dir trl>=0.15.2 peft>=0.14.0 transformers>=4.49.0
+
+
+pip uninstall accelerate datasets loguru peft sentencepiece scikit-learn tensorboard tqdm transformers trl
+
+
+pip install trl>=0.15.2 accelerate datasets>=2.14.6 loguru peft>=0.14.0 tensorboard tqdm>=4.47.0 transformers>=4.49.0
+
+pip uninstall accelerate datasets numpy transformers tyro trl
+
+# bitsandbytes # not available on pypi
+latex2sympy2_extended
+math-verify==0.5.2
